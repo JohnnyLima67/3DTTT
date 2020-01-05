@@ -2,21 +2,21 @@
 An implementation of a single player 3D Tic Tac Toe game using  the pygame library
 
 <h1>Introduction:</h1>
-In this project , we made an AI for the 3D Implementation of Tic-Tac-
+<p>In this project , we made an AI for the 3D Implementation of Tic-Tac-
 Toe (4x4x4) using the minimax algorithm. Due to the high
 computation required to calculate all possible outcomes 
-we limit the lookahead to 2 moves.
-This effectively breaks down the minimax implementation to a directwin
+we limit the lookahead to 2 moves.</p>
+<p>This effectively breaks down the minimax implementation to a directwin
 achiever or blocker. To improve the performance of the AI , we
 added a if-else if sequence to choose moves which are more likely to
 lead to a win condition , this effectively simulates a heuristic in which
-the more preferred moves would return a higher score.
-It is good to note that on implementing the same AI without the
+the more preferred moves would return a higher score.</p>
+<p>It is good to note that on implementing the same AI without the
 heuristic but with a lookahead of 3 or 4 we have about the same or
 deteriorated performance in terms of speed and deteriorated or about
 the same performance in terms of outperforming the player
 respectively when compared with the implementation mentioned in
-the previous paragraphs
+the previous paragraphs</p>
 
 <h1>Project Files:</h1>
 <h2>1. main.py</h2>
@@ -44,12 +44,13 @@ Contains functions for debugging to check board state from different views
 ⦁ Pip
 
 <h1>Execution And GUI:</h1>
-To run and play against the AI , move all the files into one directory
+<p>To run and play against the AI , move all the files into one directory
 and after opening a command terminal in that directory , use the
-command:
-<i>python main.py</i>
-It is important to note that the execution requires python and pygame
+command:</p>
+<br><i>python main.py</i>
+<p>It is important to note that the execution requires python and pygame
 installed on the system in the current environment
 The game will play out like a regular tic tac toe game , alternating
 between player(X) and AI(O) , the Player can click on the square
-they wish to play their move on.
+they wish to play their move on.</p>
+
