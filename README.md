@@ -47,10 +47,12 @@ Contains functions for debugging to check board state from different views
 <p>To run and play against the AI , move all the files into one directory
 and after opening a command terminal in that directory , use the
 command:</p>
-<br><i>python main.py</i>
+<br><i>python main.py</i><br>
 <p>It is important to note that the execution requires python and pygame
 installed on the system in the current environment
 The game will play out like a regular tic tac toe game , alternating
 between player(X) and AI(O) , the Player can click on the square
 they wish to play their move on.</p>
+<h1>ScreenCap of the Game Being Played</h1>
+<img src = "./readmereferences/screencap.png"></img>
 
